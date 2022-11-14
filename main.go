@@ -37,9 +37,4 @@ func main() {
 	app := wbl0.CreateApp(dbConn, natsConn, &srv, cm)
 
 	app.Run()
-
-	// quit := make(chan os.Signal)
-	// signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
-	// <-quit
-
 }
