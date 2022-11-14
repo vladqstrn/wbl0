@@ -1,0 +1,14 @@
+DBserver:
+  db: "postgres"
+  port: "5432"
+  name: "vlad"
+  ssl: "disable"
+  host: "localhost"
+database:
+  user: "vlad"
+  password: "root"
+
+AppServer:
+  domain: "localhost"
+  port: "8080"
+
